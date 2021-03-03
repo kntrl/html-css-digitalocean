@@ -23,11 +23,23 @@ body {
     padding: 40px 0;
 }
 
+._ptb-15 {
+    padding: 15px 0;
+}
+
+._pa-15 {
+    padding: 15px;
+
+}
 
 /* typography */
 h1 {
     font-size: 60px;
     font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
 }
 
 @media screen and ( max-width: 991px ) {
@@ -39,18 +51,11 @@ h1 {
 
 /*buttons*/
 ._button {
-    border: 1px solid #006aff;
+    border: 1px solid;
     border-radius: 5px;
     padding: 9px 12px;
-    color: #006aff;
 }
 
-/* removing bootstrap styling from links*/
-a,
-a:hover {
-    text-decoration: none;
-    color: #031c4e;
-}
 
 /*dropdown styling*/
 a._dropdown:after {
@@ -69,6 +74,14 @@ a._dropdown:after {
 header .top_nav {
     padding: 15px 0;
 }
+
+/* removing bootstrap styling from links*/
+.top_nav a,
+.top_nav a:hover {
+    text-decoration: none;
+    color: #031c4e;
+}
+
 
 header .top_nav ._button {
     color: #006aff;
@@ -110,16 +123,37 @@ header ._teaser p {
 ._jumbotron .get_started {
     background-color: #fff;
     border-radius: 5px;
-    height: 500px;
-}
-
-._jumbotron .get_started h2 {
-    font-weight: 600;
 }
 
 ._jumbotron .get_started h2._important {
     color: #006aff;
+    /* overriding boostrap h2 margin */
+    margin-top: 10px;
+}
+
+._jumbotron .get_started ._button {
+    background-color: #579aff;
+    color: #fff;
+    padding: 5px;
+}
+
+._jumbotron .get_started ._button._google {
+    background-color: #fff;
+    border-color: #fff;
+    color: #626262;
+    box-shadow: 1px 1px 1px #cecece;
 }
 
 
+.get_started ._icon {
+    position: relative;
+}
 
+.get_started ._icon img{
+    height: 16px;
+    display: block;
+    width: auto;
+    position:absolute;
+    top: 10px;
+    left: 5px;
+}
