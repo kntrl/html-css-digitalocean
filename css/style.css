@@ -1,6 +1,7 @@
 /*GLOBAL*/
 body {
     font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -27,20 +28,16 @@ body {
     padding: 15px 0;
 }
 
-._pa-15 {
-    padding: 15px;
+._pa-25 {
+    padding: 25px;
 
 }
 
 /* typography */
 h1 {
     font-size: 60px;
-    font-weight: 700;
 }
 
-h2 {
-    font-weight: 600;
-}
 
 @media screen and ( max-width: 991px ) {
     h1 {
@@ -64,7 +61,6 @@ a._dropdown:after {
     display: inline-block;
     padding-left: 5px;
     vertical-align: middle;
-    font-weight: 600;
 }
 
 
@@ -98,7 +94,6 @@ header .product_menu ul,
 header .user_menu ul {
     margin: 0;
     line-height: 32px;
-    font-weight: 600;
 }
 
 
@@ -134,26 +129,31 @@ header ._teaser p {
 ._jumbotron .get_started ._button {
     background-color: #579aff;
     color: #fff;
-    padding: 5px;
+    padding: 6px;
 }
 
-._jumbotron .get_started ._button._google {
+._jumbotron .get_started ._icon {
     background-color: #fff;
     border-color: #fff;
     color: #626262;
-    box-shadow: 1px 1px 1px #cecece;
-}
-
-
-.get_started ._icon {
-    position: relative;
+    box-shadow: 1px 1px 2px #cecece;
+    position:relative;
+    margin-bottom: 10px;
 }
 
 .get_started ._icon img{
     height: 16px;
-    display: block;
     width: auto;
     position:absolute;
     top: 10px;
-    left: 5px;
+    left: 10px;
+}
+
+.get_started .tos_link {
+    text-decoration: underline;
+    color: #006aff;
+}
+
+.get_started small {
+    margin-bottom:20px;
 }
