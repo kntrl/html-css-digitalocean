@@ -6,29 +6,29 @@ body {
 
 
 /* COMMON */
-._primary {
+.my_primary {
     color: #031c4e;   
 }
 
-._secondary {
+.my_secondary {
     color:#fff;
 }
 
-._secondary p {
+.my_secondary p {
     color: #bbcbfd;
 }
 
 /* padding and margins*/
 
-._ptb-40 {
+.my_ptb-40 {
     padding: 40px 0;
 }
 
-._ptb-15 {
+.my_ptb-15 {
     padding: 15px 0;
 }
 
-._pa-25 {
+.my_pa-25 {
     padding: 25px;
 
 }
@@ -47,7 +47,7 @@ h1 {
 
 
 /*buttons*/
-._button {
+.my_button {
     border: 1px solid;
     border-radius: 5px;
     padding: 9px 12px;
@@ -55,7 +55,7 @@ h1 {
 
 
 /*dropdown styling*/
-a._dropdown:after {
+a.my_dropdown:after {
     font-family: "Font Awesome 5 Free";
     content: "\f078";
     display: inline-block;
@@ -80,12 +80,12 @@ header .top_nav {
 }
 
 
-header .top_nav ._button {
+header .top_nav .my_button {
     color: #006aff;
 }
 
 /* logo */
-header ._logo img{
+header .my_logo img{
     width: 170px;
     height: auto;
 }
@@ -106,34 +106,34 @@ header .hamburger_toggle i {
 }
 
 /* jumbo */
-header ._jumbotron {
+header .my_jumbotron {
     background-image: url("../img/ms-jumbo.jpg");
     background-size:cover;
 }
 
-header ._teaser p {
+header .my_teaser p {
     font-size: 18px;
 }
 
 /* get_started */
-._jumbotron .get_started {
+.my_jumbotron .get_started {
     background-color: #fff;
     border-radius: 5px;
 }
 
-._jumbotron .get_started h2._important {
+.my_jumbotron .get_started h2.my_important {
     color: #006aff;
     /* overriding boostrap h2 margin */
     margin-top: 10px;
 }
 
-._jumbotron .get_started ._button {
+.my_jumbotron .get_started .my_button {
     background-color: #579aff;
     color: #fff;
     padding: 6px;
 }
 
-._jumbotron .get_started ._icon {
+.my_jumbotron .get_started .my_icon {
     background-color: #fff;
     border-color: #fff;
     color: #626262;
@@ -142,7 +142,7 @@ header ._teaser p {
     margin-bottom: 10px;
 }
 
-.get_started ._icon img{
+.get_started .my_icon img{
     height: 16px;
     width: auto;
     position:absolute;
