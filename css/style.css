@@ -1,0 +1,66 @@
+/* COMMON */
+._primary {
+    color: #031c4e;   
+}
+
+._secondary {
+    color:#fff;
+
+}
+
+/*buttons*/
+._button {
+    border: 1px solid #3a8aff;
+    border-radius: 5px;
+    padding: 6px 12px;
+    color: #3a8aff;
+}
+
+/* removing bootstrap styling from links*/
+a,
+a:hover {
+    text-decoration: none;
+    color: #031c4e;
+}
+
+/*dropdown styling*/
+a._dropdown:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+    font-weight:900;
+}
+
+
+/* HEADER */
+
+/* top nav */
+header .top_nav {
+    padding: 15px 0;
+}
+
+/* logo */
+header ._logo img{
+    width: 170px;
+    height: auto;
+}
+
+/*removing bootstrap ul-margin and aligning menus to logo*/
+.product_menu ul,
+.user_menu ul {
+    margin: 0;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+
+/* hamburger */
+header .hamburger_toggle i {
+    line-height: 32px;
+    font-size: 18px;
+    color: #3a8aff;
+}
+
+/**/
