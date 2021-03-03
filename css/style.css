@@ -1,3 +1,9 @@
+/*GLOBAL*/
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
 /* COMMON */
 ._primary {
     color: #031c4e;   
@@ -5,15 +11,38 @@
 
 ._secondary {
     color:#fff;
-
 }
+
+._secondary p {
+    color: #bbcbfd;
+}
+
+/* padding and margins*/
+
+._ptb-40 {
+    padding: 40px 0;
+}
+
+
+/* typography */
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+@media screen and ( max-width: 991px ) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
 
 /*buttons*/
 ._button {
-    border: 1px solid #3a8aff;
+    border: 1px solid #006aff;
     border-radius: 5px;
-    padding: 6px 12px;
-    color: #3a8aff;
+    padding: 9px 12px;
+    color: #006aff;
 }
 
 /* removing bootstrap styling from links*/
@@ -30,7 +59,7 @@ a._dropdown:after {
     display: inline-block;
     padding-left: 5px;
     vertical-align: middle;
-    font-weight:900;
+    font-weight: 600;
 }
 
 
@@ -41,6 +70,10 @@ header .top_nav {
     padding: 15px 0;
 }
 
+header .top_nav ._button {
+    color: #006aff;
+}
+
 /* logo */
 header ._logo img{
     width: 170px;
@@ -48,11 +81,11 @@ header ._logo img{
 }
 
 /*removing bootstrap ul-margin and aligning menus to logo*/
-.product_menu ul,
-.user_menu ul {
+header .product_menu ul,
+header .user_menu ul {
     margin: 0;
     line-height: 32px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 
@@ -60,7 +93,33 @@ header ._logo img{
 header .hamburger_toggle i {
     line-height: 32px;
     font-size: 18px;
-    color: #3a8aff;
+    color: #006aff;
 }
 
-/**/
+/* jumbo */
+header ._jumbotron {
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size:cover;
+}
+
+header ._teaser p {
+    font-size: 18px;
+}
+
+/* get_started */
+._jumbotron .get_started {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 500px;
+}
+
+._jumbotron .get_started h2 {
+    font-weight: 600;
+}
+
+._jumbotron .get_started h2._important {
+    color: #006aff;
+}
+
+
+
