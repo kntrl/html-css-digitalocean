@@ -357,3 +357,33 @@ section.get_started .my_button {
 footer {
     background-color: #031c4e;
 }
+
+
+footer h4 {
+    color: #fff;
+}
+
+footer a,
+footer a:hover,
+footer .company {
+    color: #6f7b97;
+}
+
+footer .company p {
+    padding-top: 10px;
+    /* overriding p bootstrap margin */
+    margin: 0;
+}
+
+footer .proudly {
+    color: #626262;
+}
+
+footer .my_social {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+footer .sitemap_menu li {
+    padding: 5px 0;
+}
