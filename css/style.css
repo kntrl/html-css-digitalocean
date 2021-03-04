@@ -182,6 +182,9 @@ header .my_teaser p {
 }
 
 /* MAIN */
+main section h2 {
+    font-size: 36px;
+}
 main h2 + p {
     font-size: 18px;
 }
@@ -191,7 +194,7 @@ main .section_intro {
 }
 
 /* customers*/
-section.my_customers h2 {
+main section.my_customers h2 {
     font-size: 18px;
     color: #6f7b97;
 }
@@ -270,3 +273,8 @@ section.dev_features .slideshow_pagenum {
     color:#006aff;
 }
 
+/*business feature*/
+
+section.business_features .feature_showcase a {
+    color: #006aff;
+}
