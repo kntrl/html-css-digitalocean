@@ -33,6 +33,10 @@ body {
     color: #006aff;
 }
 
+.my_gradient {
+    background:linear-gradient(to bottom, #0047c5 , #00209a);
+}
+
 /* padding and margins*/
 .my_ptb-50 {
     padding: 50px 0;
@@ -286,19 +290,12 @@ section.my_customers ul img {
     }
  }
 
- /* developer features section*/
-
 /*business feature section*/
 section.business_features .feature_showcase a {
     color: #006aff;
 }
 
 /* test_server section*/
-
- section.test_servers {
-    background:linear-gradient(to bottom, #0047c5 , #00209a);
- }
-
  section.test_servers .servers_list {
     margin: 15px 15px;
     font-size: 12px;
@@ -342,4 +339,21 @@ section.my_testimonials .testimonial_name {
 
 section.my_testimonials .testimonial_role {
     margin-bottom: 20px;
+}
+
+/*get started section*/
+section.get_started h2 {
+    margin-bottom: 30px;
+}
+
+section.get_started .my_button {
+    background-color: #fff;
+    border: 0;
+    color: #006aff;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #031c4e;
 }
