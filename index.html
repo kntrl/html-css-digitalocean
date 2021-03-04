@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- including Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
@@ -236,28 +236,47 @@
                     <h2>Designed for developers</h2>
                     <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
                 </div>
-                <div class="wrapper_70">
-                    <div class="panel_slideshow">
-                        <i class="hidden-xs fas fa-angle-left disable"></i>
-                        <img src="img/slide.jpg" alt="">
-                        <i class="hidden-xs fas fa-angle-right"></i>
-                        <div class="slideshow_imgcaption">
-                            <p>Create compute servers in 55 seconds or less.</p>
+                <!-- slideshow -->
+                <div class="my_slideshow">
+                    <!-- slideshow arrows and item row -->
+                    <div class="row">
+                        <div class="hidden-xs col-sm-3">
+                            <div class="slideshow_arrow_left text-right">
+                                <i class="hidden-xs fas fa-angle-left disable"></i>
+                            </div>
                         </div>
-                        <div class="slideshow_pagenum">
-                            <i class="fas fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="slideshow_item">
+                                <img src="img/slide.jpg" alt="">
+                            </div>
                         </div>
-                    </div>    
-                    
-
+                        <div class="hidden-xs col-sm-3">
+                            <div class="slideshow_arrow_right text-left">
+                                <i class="hidden-xs fas fa-angle-right"></i>
+                            </div>                            
+                        </div>
+                    </div>
+                    <!-- slideshow arrows and item row ends-->
+                    <!-- slideshow caption and page num circles row -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="slideshow_imgcaption">
+                                <p>Create compute servers in 55 seconds or less.</p>
+                            </div>
+                            <div class="slideshow_pagenum">
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                        </div>
+                    </div>
+                    <!-- slideshow caption and page num circles row ends-->
                 </div>
+                <!-- slideshow ends -->
             </div>
         </section>
         <!-- developer feature section ends -->
-         <!-- business feature section -->
+        <!-- business feature section -->
          <section class="business_features my_primary text-center my_ptb-50">
             <div class="container">
                 <!-- section intro -->
@@ -305,6 +324,7 @@
             </div>
         </section>
         <!-- deploy feature section ends -->
+        <!-- server location and speetest section -->
         <section class="test_servers my_secondary text-center my_ptb-50">
             <div class="section_intro">
                 <h2>Service your customers around the world from 12 regions.</h2>
@@ -319,15 +339,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            AMS2
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
                                             Amsterdam, Netherlands
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -338,15 +358,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            AMS3
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
                                             Amsterdam, Netherlands
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -357,15 +377,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            BLR1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            Bangalore, India
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -376,15 +396,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            FRA1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            Frankfurt, Germany
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -395,15 +415,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            LON1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            London, UK
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -414,15 +434,15 @@
                                 <div class="row">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            NYC1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            New York, USA
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -441,15 +461,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            AMS2
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
                                             Amsterdam, Netherlands
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -460,15 +480,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            AMS3
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
                                             Amsterdam, Netherlands
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -479,15 +499,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            BLR1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            Bangalore, India
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -498,15 +518,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            FRA1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            Frankfurt, Germany
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -517,15 +537,15 @@
                                 <div class="row bordered">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            LON1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            London, UK
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -536,15 +556,15 @@
                                 <div class="row">
                                     <div class="col-xs-2">
                                         <div class="server_name">
-                                            AMS
+                                            NYC1
                                         </div>
                                     </div>
-                                    <div class="col-xs-7">
+                                    <div class="col-xs-6">
                                         <div class="server_location">
-                                            Amsterdam, Netherlands
+                                            New York, USA
                                         </div>
                                     </div>
-                                    <div class="col-xs-3">
+                                    <div class="col-xs-4">
                                         <div class="server_test text-right">
                                             <a href="">Test speed ></a>
                                         </div>
@@ -558,6 +578,61 @@
                 </div>
             </div>
         </section>
+        <!-- server location and speetest section ends-->
+        <!-- testimonials section -->
+        <section class="my_testimonials my_tertiary text-center my_ptb-50">
+            <div class="container">
+                <div class="section_intro">
+                    <h2>Development teams love DigitalOcean</h2>
+                </div>
+                <!-- slideshow -->
+                <div class="my_slideshow">
+                    <!-- slideshow arrows and item row -->
+                    <div class="row">
+                        <div class="hidden-xs col-sm-3">
+                            <div class="slideshow_arrow_left text-right">
+                                <i class="hidden-xs fas fa-angle-left disable"></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="slideshow_item">
+                                <div class="testimonial_box my_primary my_ptb-50">
+                                    <img src="img/rockerbox-logo.png" alt="">
+                                    <p>"We have been able to makle scaling the technical infrastructure of our business cost effective and efficient.</p>
+                                    <div class="testimonial_name">Rick O'Toole</div>
+                                    <div class="testimonial_role">Co-founder and CTO</div>
+                                    <a href="">Read Story ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-sm-3">
+                            <div class="slideshow_arrow_right text-left">
+                                <i class="hidden-xs fas fa-angle-right"></i>
+                            </div>                            
+                        </div>
+                    </div>
+                    <!-- slideshow arrows and item row ends-->
+                    <!-- slideshow caption and page num circles row -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="slideshow_imgcaption">
+                                <p>Create compute servers in 55 seconds or less.</p>
+                            </div>
+                            <div class="slideshow_pagenum">
+                                <i class="fas fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                                <i class="far fa-circle"></i>
+                        </div>
+                    </div>
+                    <!-- slideshow caption and page num circles row ends-->
+                </div>
+                <!-- slideshow ends -->
+            </div>
+        </section>
+        <!-- testimonials section  ends-->
+
+
     </main>
     <!-- MAIN ENDS -->
 

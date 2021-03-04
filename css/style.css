@@ -1,6 +1,6 @@
 /*GLOBAL*/
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
@@ -89,6 +89,52 @@ a.my_dropdown:after {
     padding-left: 5px;
     vertical-align: middle;
     font-weight: 900;
+}
+
+/* slideshow */
+
+.my_slideshow  {
+    position: relative;
+}
+
+
+.my_slideshow .slideshow_item  {
+    min-width: 300px;
+    margin: auto;
+}
+
+.my_slideshow .slideshow_item  img{
+    width: 100%;
+}
+
+
+.my_slideshow .slideshow_arrow_left,
+.my_slideshow .slideshow_arrow_right {
+    height: 100%;
+}
+
+.my_slideshow .slideshow_arrow_left i,
+.my_slideshow .slideshow_arrow_right i {
+    font-size: 50px;
+    padding-top: 50%;
+}
+
+.my_slideshow i.disable {
+    color:#5c6a88;
+}
+
+.my_slideshow .slideshow_imgcaption p {
+    padding-top: 10px;
+    color:#031c4e;
+
+    /*resetting bootstrap p margin*/
+    margin:0;
+}
+
+.my_slideshow .slideshow_pagenum {
+    padding-top: 20px;
+    font-size: 14px;
+    color:#006aff;
 }
 
 /* HEADER */
@@ -221,7 +267,6 @@ section.my_customers ul img {
  } 
 
  /*deploy features section*/
- 
  /*deploy feature list*/
  section.deploy_features .feature_showcase ul {
      border-left: 2px solid #cccccc;
@@ -242,36 +287,8 @@ section.my_customers ul img {
  }
 
  /* developer features section*/
-section.dev_features .panel_slideshow  {
-    vertical-align: middle;
-}
-
-section.dev_features .panel_slideshow img {
-    width: 60%;
-    height: auto;
-    margin: 0 20px;
-} 
-
-section.dev_features .panel_slideshow > i {
-    font-size: 50px;
-}
-
-section.dev_features .panel_slideshow > i.disable {
-    color:#5c6a88;
-}
-
-section.dev_features .slideshow_imgcaption p {
-    padding-top: 10px;
-    color:#031c4e;
-}
-
-section.dev_features .slideshow_pagenum {
-    font-size: 14px;
-    color:#006aff;
-}
 
 /*business feature section*/
-
 section.business_features .feature_showcase a {
     color: #006aff;
 }
@@ -305,3 +322,24 @@ section.test_servers .servers_list .row.bordered {
 }
 
 
+/* testimonial section */
+section.my_testimonials .my_slideshow img {
+    max-width: 300px;
+}
+
+section.my_testimonials .testimonial_box {
+    border-radius: 5px;
+}
+
+section.my_testimonials .my_slideshow p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+section.my_testimonials .testimonial_name {
+    font-weight: 600;
+}
+
+section.my_testimonials .testimonial_role {
+    margin-bottom: 20px;
+}
