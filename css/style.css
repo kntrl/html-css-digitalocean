@@ -8,20 +8,30 @@ body {
 /* COMMON */
 .my_primary {
     color: #031c4e;   
+    background-color: #fff;
 }
 
 .my_secondary {
     color:#fff;
+    
 }
 
 .my_secondary p {
     color: #bbcbfd;
 }
 
+.my_tertiary {
+    background-color: #f3f5f9;
+    color: #6f7b97;
+}
+
+.my_tertiary a {
+    color: #006aff;
+}
 /* padding and margins*/
 
-.my_ptb-40 {
-    padding: 40px 0;
+.my_ptb-50 {
+    padding: 50px 0;
 }
 
 .my_ptb-15 {
@@ -43,6 +53,11 @@ h1 {
     h1 {
         font-size: 36px;
     }
+}
+
+a,
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -117,7 +132,6 @@ header .my_teaser p {
 
 /* get_started */
 .my_jumbotron .get_started {
-    background-color: #fff;
     border-radius: 5px;
 }
 
@@ -158,3 +172,33 @@ header .my_teaser p {
 .get_started small {
     margin-bottom:20px;
 }
+
+
+/* MAIN */
+
+/* customers*/
+
+section.my_customers h2 {
+    font-size: 18px;
+}
+
+section.my_customers ul li {
+   width: calc( ( 100% / 6 ) - 18px) ;
+   vertical-align: middle;
+}
+
+/*media query => 2 image per row on phone */
+@media screen and ( max-width: 767px ) {
+    section.my_customers ul li {
+        width: calc( ( 100% / 2 ) - 18px) ;
+        vertical-align: middle;
+     }
+}
+
+section.my_customers ul img {
+    width: 100%;
+ }
+
+ section.my_customers a {
+     font-size: 16px;
+ } 
