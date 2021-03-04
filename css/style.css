@@ -223,7 +223,6 @@ section.my_customers ul img {
  /*deploy features section*/
  
  /*deploy feature list*/
-
  section.deploy_features .feature_showcase ul {
      border-left: 2px solid #cccccc;
      margin-bottom: 20px;
@@ -234,7 +233,6 @@ section.my_customers ul img {
      font-size: 18px;
      color:#6f7b97
  }
- 
 
  /*on mobile wrapper of this section goes 100%*/
  @media screen and ( max-width: 767px ) {
@@ -243,20 +241,19 @@ section.my_customers ul img {
     }
  }
 
- /* developer features */
-
- section.dev_features .panel_slideshow  {
+ /* developer features section*/
+section.dev_features .panel_slideshow  {
     vertical-align: middle;
 }
 
- section.dev_features .panel_slideshow img {
-     width: 60%;
-     height: auto;
-     margin: 0 20px;
- }
+section.dev_features .panel_slideshow img {
+    width: 60%;
+    height: auto;
+    margin: 0 20px;
+} 
 
- section.dev_features .panel_slideshow > i {
-     font-size: 50px;
+section.dev_features .panel_slideshow > i {
+    font-size: 50px;
 }
 
 section.dev_features .panel_slideshow > i.disable {
@@ -273,8 +270,38 @@ section.dev_features .slideshow_pagenum {
     color:#006aff;
 }
 
-/*business feature*/
+/*business feature section*/
 
 section.business_features .feature_showcase a {
     color: #006aff;
 }
+
+/* test_server section*/
+
+ section.test_servers {
+    background:linear-gradient(to bottom, #0047c5 , #00209a);
+ }
+
+ section.test_servers .servers_list {
+    margin: 15px 15px;
+    font-size: 12px;
+}
+
+section.test_servers .servers_list  [class*="server_"] {
+    padding: 10px 0;
+}
+
+section.test_servers .servers_list .server_location {
+    color: #b5c2e5;
+}
+
+section.test_servers .servers_list .server_test a{
+    color: #00d7d2;
+}
+
+
+section.test_servers .servers_list .row.bordered {
+    border-bottom: 1px solid #fff;
+}
+
+
