@@ -11,7 +11,8 @@ body {
     background-color: #fff;
 }
 
-.my_primary p {
+.my_primary p,
+.my_tertiary p {
     color:#5c6a88;
 }
 
@@ -25,7 +26,7 @@ body {
 
 .my_tertiary {
     background-color: #f3f5f9;
-    color: #6f7b97;
+    color: #031c4e;
 }
 
 .my_tertiary a {
@@ -47,8 +48,13 @@ body {
 }
 
 /* wrappers */
-.small_wrapper {
+.wrapper_90 {
     width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper_80 {
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -180,9 +186,14 @@ main h2 + p {
     font-size: 18px;
 }
 
+main .section_intro {
+    margin-bottom: 50px;
+}
+
 /* customers*/
 section.my_customers h2 {
     font-size: 18px;
+    color: #6f7b97;
 }
 
 section.my_customers ul li {
@@ -206,21 +217,16 @@ section.my_customers ul img {
      font-size: 16px;
  } 
 
- /*features section*/
+ /*deploy features section*/
  
- /*feature list*/
+ /*deploy feature list*/
 
- section.my_features .section_intro {
-    margin-bottom: 50px;
-}
-
-
- section.my_features .feature_showcase ul {
+ section.deploy_features .feature_showcase ul {
      border-left: 2px solid #cccccc;
      margin-bottom: 20px;
  }
 
- section.my_features .feature_showcase li {
+ section.deploy_features .feature_showcase li {
      padding: 10px 0px 10px 10px;
      font-size: 18px;
      color:#6f7b97
@@ -229,7 +235,38 @@ section.my_customers ul img {
 
  /*on mobile wrapper of this section goes 100%*/
  @media screen and ( max-width: 767px ) {
-    .small_wrapper {
+    .wrapper_90 {
         width: 100%;
     }
  }
+
+ /* developer features */
+
+ section.dev_features .panel_slideshow  {
+    vertical-align: middle;
+}
+
+ section.dev_features .panel_slideshow img {
+     width: 60%;
+     height: auto;
+     margin: 0 20px;
+ }
+
+ section.dev_features .panel_slideshow > i {
+     font-size: 50px;
+}
+
+section.dev_features .panel_slideshow > i.disable {
+    color:#5c6a88;
+}
+
+section.dev_features .slideshow_imgcaption p {
+    padding-top: 10px;
+    color:#031c4e;
+}
+
+section.dev_features .slideshow_pagenum {
+    font-size: 14px;
+    color:#006aff;
+}
+
