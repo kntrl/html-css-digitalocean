@@ -387,3 +387,84 @@ footer .my_social {
 footer .sitemap_menu li {
     padding: 5px 0;
 }
+
+/* FIXED LIVECHAT */
+.my_livechat {
+    width:300px;
+    position:fixed;
+    bottom:10px;
+    right:40px;
+    border-radius: 5px;
+}
+.my_livechat .col_inner {
+    padding: 5px 0;
+}
+
+.my_livechat .my_balloon {
+    position:relative;
+}
+
+.balloon_arrow {
+    position:absolute;
+    bottom: 10px;
+    left: 99%;
+    color:#fff;
+}
+
+.balloon_message {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.my_livechat .chat_avatar {
+    background-color:#006aff;
+    border-radius: 5px;
+    height:50px;
+    width: 50px;
+    position: relative;
+}
+
+.my_livechat .chat_avatar img{
+    width: 50px;
+    /* vertical centering */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.my_livechat .notifications {
+   width:20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: white;;
+   position:absolute;
+   right: -10px;
+   top: -10px;
+}
+
+.my_livechat .new_messages {
+    background-color: #ff0000;
+    width:15px;
+    height: 15px;
+    color:#fff;
+    text-align: center;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+   
+/* moving livechat to the left on < desktop res and adding footer extra padding to avoid content overlapping*/
+@media screen and ( max-width: 991px ) {
+    .my_livechat {
+        left:40px;
+    }
+
+    footer {
+        padding-bottom: 150px !important;
+    }
+}
