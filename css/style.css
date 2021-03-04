@@ -209,16 +209,23 @@ section.my_customers ul img {
  /*features section*/
  
  /*feature list*/
+
+ section.my_features .section_intro {
+    margin-bottom: 50px;
+}
+
+
  section.my_features .feature_showcase ul {
      border-left: 2px solid #cccccc;
+     margin-bottom: 20px;
  }
 
  section.my_features .feature_showcase li {
      padding: 10px 0px 10px 10px;
-     font-size: 16px;
+     font-size: 18px;
      color:#6f7b97
  }
- 6f7b97
+ 
 
  /*on mobile wrapper of this section goes 100%*/
  @media screen and ( max-width: 767px ) {
