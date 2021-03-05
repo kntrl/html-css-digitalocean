@@ -207,7 +207,6 @@ header .my_teaser p {
 
 .my_jumbotron .get_started .my_icon {
     background-color: #fff;
-    border-color: #fff;
     color: #626262;
     box-shadow: 1px 1px 2px #cccccc;
     position:relative;
@@ -408,21 +407,24 @@ footer .sitemap_menu li {
     position:relative;
 }
 
-.balloon_arrow {
+.my_livechat .balloon_arrow {
     position:absolute;
     height:0;
     width:0;
     bottom: 10px;
-    left: 99%;
+    left:100%;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-left:10px solid #fff;
+    filter: drop-shadow(2px 1px 1px #031c4e);
+
 }
 
-.balloon_message {
+.my_livechat .balloon_message {
     background-color: #fff;
     border-radius: 5px;
     padding: 5px;
+    box-shadow: 1px 1px 2px #031c4e;
 }
 
 .my_livechat .chat_avatar {
@@ -445,7 +447,7 @@ footer .sitemap_menu li {
    width:20px;
    height: 20px;
    border-radius: 50%;
-   background-color: white;;
+   background-color: #fff;
    position:absolute;
    right: -10px;
    top: -10px;
