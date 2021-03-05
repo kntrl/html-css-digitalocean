@@ -295,6 +295,10 @@ section.business_features .feature_showcase a {
     color: #006aff;
 }
 
+section.business_features .col_inner {
+    padding: 10px 0;
+}
+
 /* test_server section*/
  section.test_servers .servers_list {
     margin: 15px 15px;
