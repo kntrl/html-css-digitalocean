@@ -410,9 +410,13 @@ footer .sitemap_menu li {
 
 .balloon_arrow {
     position:absolute;
+    height:0;
+    width:0;
     bottom: 10px;
     left: 99%;
-    color:#fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left:10px solid #fff;
 }
 
 .balloon_message {
@@ -465,7 +469,7 @@ footer .sitemap_menu li {
 /* moving livechat to the left on < desktop res and adding footer extra padding to avoid content overlapping*/
 @media screen and ( max-width: 991px ) {
     .my_livechat {
-        left:40px;
+        left:10px;
     }
 
     footer {
